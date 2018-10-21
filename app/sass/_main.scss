@@ -1,0 +1,33 @@
+@import 'varibles';
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9ebee;
+
+    &_find_account_container {
+        display: flex;
+        width: 45%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        @include border(#ccc);
+        border-radius: 4px;
+        background-color: #ffffff;
+        margin: 7em 0em;
+        padding: 30px;
+
+        &-text {
+            font-weight: bold;
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #aaa;
+        }
+    }
+
+    
+}
+
+
