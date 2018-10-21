@@ -9,16 +9,14 @@
 
     &_container {
         display: flex;
-        width: 40%;
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
+        width: 40%;
         @include border(#ccc);
         border-radius: 4px;
         background-color: #ffffff;
-        margin: 7em 0em;
-
-
+        margin: 8% 0%;
         &-article {
             font-weight: bold;
             width: 90%;
@@ -27,7 +25,6 @@
             padding-bottom: 5px;
             border-bottom: 1px solid #aaa;
         }
-
         &-text {
             font-size: 12px;
             padding-top: 10px;
@@ -76,10 +73,7 @@
                 }
             }
         }
-
     }
-
-    
 }
 
 
